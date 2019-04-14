@@ -4,11 +4,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Juno</title>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery-3.3.1.min.js"></script>
-    <link rel="stylesheet" href="css/master.css">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-
+    <link rel="stylesheet" href="./js/bootstrap.min.css">
+  <script src="./js/jquery-3.3.1.min.js"></script>
+  <script src="./js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/master.css">
 </head>
 <body>
     <div class="container-fluid"><!--phan dau trang-->
@@ -17,21 +17,32 @@
          <div class="col-sm-3">
           <div class="top-logo-center">
             <a href="">
-              <img src="img/juno.png"  style="padding:2px;height: 100px;">
+              <img src="img/juno.png"  style="padding:2px;height: 90px;width:90%;margin-left: 50px; margin-top:-15px;">
             </a>
           </div>
          </div>
-         <div class="col-sm-5">
-          <form class="searchform" action=" " method="post">
-             <input type="text" placeholder="Ban can tim gi?" name="search">
-             <button type="submit" name="btn_search" style=" height:20px;">
-               <i class="glyphicon glyphicon-search">
-               </i>
-              </button>
+         <div class="col-sm-4">
+         <form class="example" action="" style="margin:auto;max-width:300px">
+            <input type="text" placeholder="Search.." name="search">
+            <button type="submit">
+              <i class="fa fa-search"></i>
+            </button>
           </form>
          </div>
-         <div class="col-sm-4"></div>
-         <div class="col-sm-4"></div>
+         <div class="col-sm-3">
+           <div class="phone">
+             <i class="fa fa-phone" style="font-size:25px;color:black"></i>
+             <span> 11109287
+             </span>
+           </div>  
+         </div>
+         <div class="col-sm-2">
+          <div class="cart">
+            <i class="fa fa-shopping-bag" style="font-size:25px"></i>
+            <span></span>
+            <span>sản phẩm</span>
+          </div>
+         </div>
      </div>
     </div>
     </div>
